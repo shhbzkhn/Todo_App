@@ -24,10 +24,10 @@ class Tasks extends StatelessWidget {
 
     return Scaffold(
         appBar: AppBar(
-          title: Text('TodoList'),
+          title: Text('Todo List'),
           actions: [
             Padding(
-                padding: EdgeInsets.only(right: 20.0),
+                padding: EdgeInsets.only(right: 30.0),
                 child: IconButton(
                     icon: Icon(Icons.check),
                     onPressed: () => _goToCompletedTasks(context, todoList)))
